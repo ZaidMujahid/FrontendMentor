@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;600;700;800&family=Open+Sans:ital@1&family=Quicksand&family=Roboto+Slab:wght@300&display=swap');
+html{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+.main{
+    width: 40%;
+    margin: 10em auto;
+    display: flex;
+    box-shadow: 5px 5px 10px rgb(207, 207, 207);
+    border-radius: 25px;
+}
+.leftSection{
+    width: 100%;
+    text-align: center;
+    background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    color: #fff;
+    padding: 1em;
+    border-radius: 25px;
+}
+.rightSection{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+.leftSection h3{
+    padding: 1em;
+    font-weight: 500;
+    color: hsl(0, 0%, 89%);
+
+}
+.score-circle{
+    border-radius: 100%;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    width: 60%;
+    display: inline-block;
+}
+.score-circle h1{
+    font-size: 3rem;
+    margin-top: 1em;
+    margin-bottom: 0;
+    padding: 0;
+    font-weight: 800;
+}
+.score-circle p{
+    padding: 0;
+    margin-top: 0.2em;
+    margin-bottom: 3em;
+    font-weight: 500;
+    color: hsl(0, 0%, 89%);
+
+}
+.leftSection h2{
+    font-size: 2em;
+    font-weight: 800;
+}
+.leftSection p{
+    font-size: 1.1em;
+    font-weight: 500;
+    color: hsl(0, 0%, 89%);
+    
+}
+.summary-cards{
+    display: flex;
+    justify-content: space-between;
+    background-color: lightpink;
+    padding: 0 0.5em;
+    margin: 0.5em;
+    border-radius: 5px;
+}
+#title1{
+    color: hsl(0, 100%, 67%);
+    font-size: 1.2em;
+
+}
+#title2{
+    color: hsl(39, 100%, 56%);
+    font-size: 1.2em;
+
+}
+#title3{
+    color: hsl(166, 100%, 37%);
+    font-size: 1.2em;
+
+}
+#title4{
+    color: hsl(234, 85%, 45%);
+    font-size: 1.2em;
+}
+#card1{
+    background-color: hsl(0, 60%, 95%);
+}
+#card2{
+    background-color: hsl(39, 58%, 91%);
+}
+#card3{
+    background-color: hsl(166, 90%, 92%);
+}
+#card4{
+    background-color: hsl(234, 100%, 92%);
+}
+.marks{
+    color: hsl(223, 92%, 14%);
+    font-size: 1.2em;
+
+}
+.out-of{
+    color: hsl(240, 0%, 56%);
+    font-size: 1.2em;
+
+}
+.rightSection h3{
+    padding: 0.8em;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: 800;
+    font-size: 1.3em;
+}
+.summary-title{
+    margin-right: 5em;
+}
+.btn{
+    padding: 0.6em;
+    margin: 0.4em;
+    margin-top: 1em;
+    border-radius: 50px;
+    border-style: none;
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+    font-weight: 500;
+}
+.btn:hover{
+    background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+}
+@media screen and (max-width: 1000px) {
+    .main {
+        width: 80%;
+        height: 100vh;
+        margin: 5em auto;
+        flex-direction: column;
+        padding: 0;
+    }
+    .rightSection {
+        width: 90%;
+        height: 50%;
+    }
+    .leftSection {
+        width: 93%;
+    }
+    .score-circle {
+        width: 50%;
+    }
+  }
