@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;600;700&family=Open+Sans:ital@1&family=Outfit:wght@400;700&family=Quicksand&family=Roboto+Slab:wght@300&display=swap');
+
+html{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Outfit', sans-serif;
+    background-color: rgb(228, 246, 252);
+
+}
+main{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.outline{
+    background-color: #fff;
+    text-align: center;
+    padding: 1.5em;
+    border-radius: 10px;
+    box-shadow: 8px 8px 8px rgb(216, 215, 215);
+}
+img{
+    width: 225px;
+    border-radius: 10px;
+}
+.content h2{
+    color:hsl(218, 44%, 22%);
+}
+.content p{
+    color:hsl(211, 13%, 68%);
+    font-size: 1.2rem;
+}
+
+

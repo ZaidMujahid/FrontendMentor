@@ -7,10 +7,13 @@ html{
 }
 body{
     font-family: 'Hanken Grotesk', sans-serif;
-    display: flex;
+    min-height: 100vh;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
 }
 .main{
-    margin: 10em auto;
+    /* margin: 10em auto; */
     display: flex;
     box-shadow: 5px 5px 10px rgb(207, 207, 207);
     border-radius: 25px;
@@ -133,6 +136,7 @@ body{
     background-color: hsl(224, 30%, 27%);
     color: white;
     font-weight: 500;
+    cursor: pointer;
 }
 .btn:hover{
     background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
