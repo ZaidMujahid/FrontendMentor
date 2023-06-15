@@ -7,9 +7,9 @@ html{
 }
 body{
     font-family: 'Hanken Grotesk', sans-serif;
+    display: flex;
 }
 .main{
-    width: 40%;
     margin: 10em auto;
     display: flex;
     box-shadow: 5px 5px 10px rgb(207, 207, 207);
@@ -38,7 +38,7 @@ body{
 .score-circle{
     border-radius: 100%;
     background-image: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
-    width: 60%;
+    width: 50%;
     display: inline-block;
 }
 .score-circle h1{
@@ -137,22 +137,21 @@ body{
 .btn:hover{
     background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 650px) {
     .main {
-        width: 80%;
-        height: 100vh;
         margin: 5em auto;
         flex-direction: column;
         padding: 0;
+        align-items: flex-start;
     }
     .rightSection {
         width: 90%;
         height: 50%;
     }
     .leftSection {
-        width: 93%;
+        width: 95%;
     }
     .score-circle {
-        width: 50%;
+        width: 40%;
     }
   }
