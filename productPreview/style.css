@@ -125,4 +125,12 @@ p:nth-child(2) {
         border-bottom-right-radius: 10px;
         border-bottom-left-radius: 10px;
     }
+    .desktop-responsive-img{
+        display: none;
+    }
+}
+@media screen and (min-width: 415px) {
+    .mobile-responsive-img{
+        display: none;
+    }
 }
