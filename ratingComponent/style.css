@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Fraunces:wght@700&family=Hanken+Grotesk:wght@500;600;700&family=Lexend+Deca&family=Montserrat:wght@500;700&family=Open+Sans:ital@1&family=Outfit:wght@400;700&family=Overpass:wght@400;700&family=Quicksand&family=Roboto+Slab:wght@300&display=swap');
+
+
+html{
+    font-size: 62.5%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    font-family: 'Overpass', sans-serif;
+}
+main{
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+}
+.container{
+    background-color: hsl(213, 19%, 18%);
+    padding: 3em;
+    border-radius: 20px;
+}
+.container img{
+    background-color: hsl(214, 17%, 24%);
+    width: 15px;
+    height: 15px;
+    padding: 1em;
+    border-radius: 50%;
+    margin-bottom: 1.5em;
+}
+.title{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #fff;
+    margin: 0;
+}
+.content{
+    font-weight: 400;
+    color:hsl(217, 12%, 63%);
+    line-height: 1.7rem;
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin-bottom: 2em;
+}
+.rating{
+    display: flex;
+    justify-content: space-around;
+    gap:1.5em;
+}
+.rate{
+    background-color: hsl(214, 17%, 24%);
+    padding: 1em 1.3em;
+    border-radius: 50%;
+    color:hsl(217, 12%, 63%);
+    font-weight: 700;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+button{
+    font-family: 'Overpass', sans-serif;
+    width: 100%;
+    border-radius: 20px;
+    padding:0.7em 0;
+    text-transform: uppercase;
+    font-weight: 400;
+    background-color: hsl(25, 97%, 53%);
+    color:#fff;
+    border-style: none;
+    margin-top: 2em;
+    cursor: pointer;
+}
+button:hover{
+    color: hsl(25, 97%, 53%);
+    background-color: #fff;
+}
+.rate:hover{
+    background-color: hsl(217, 12%, 63%);
+    color: #fff;
+}
+.rate:focus{
+    background-color:hsl(25, 97%, 53%);
+    color: #fff;
+}
+
+/* Thank you page */
+
+.ty-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(213, 19%, 18%);
+    padding: 2.5em;
+    border-radius: 20px;
+    text-align: center;
+}
+.hidden{
+    display: none;
+}
+img{
+    width: 120px;
+}
+.ty-rating{
+    background-color:hsl(214, 17%, 24%);
+    padding: .5em 1em;
+    border-radius: 12px;
+    color:hsl(25, 97%, 53%);
+    margin-top: 2em;
+}
+.ty-title{
+    font-size:2rem;
+    font-weight: 400;
+    color:#fff;
+    margin-bottom: 0;
+}
+.ty-content{
+    color:hsl(217, 12%, 63%);
+    line-height: 1.7rem;
+    font-size: 1.1rem;
+}
+
+
+.attribution { font-size: 11px; text-align: center; color:#fff}
+.attribution a { color: hsl(228, 45%, 44%); }
